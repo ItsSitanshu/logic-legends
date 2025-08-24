@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+:root {
+  --primary: #003049;        /* prussian blue */
+  --primary-light: #50c2ff;
+
+  --danger: #d62828;         /* fire engine red */
+  --danger-light: #efa9a9;
+
+  --accent: #f77f00;         /* orange */
+  --accent-light: #ffcc95;
+
+  --highlight: #fcbf49;      /* xanthous */
+  --highlight-light: #fee6b7;
+
+  --neutral: #eae2b7;        /* vanilla */
+  --neutral-dark: #0f0f0f;
+
+  --white: #ffffff;
+  --black: #000000;
+}
+
+
+body {
+  background: var(--neutral-dark);
+  color: var(--primary);
+  font-family: Arial, Helvetica, sans-serif;
+}
